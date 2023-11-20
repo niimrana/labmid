@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        GITHUB_REPO = https://github.com/niimrana/labmid.git
+        GITHUB_REPO = 'https://github.com/niimrana/labmid.git'
         AWS_ACCESS_KEY_ID = credentials('aws-access-key-id')
         AWS_SECRET_ACCESS_KEY = credentials('aws-secret-access-key')
         ELASTIC_BEANSTALK_ENV_NAME = 'your-elastic-beanstalk-environment-name'
